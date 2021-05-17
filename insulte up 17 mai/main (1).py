@@ -29,8 +29,6 @@ def menu_screen():
     print('****************')
     menu()
 
-#### Les perso a choisir
-
 def screen_selection():
     os.system('cls')
     print( "Andre The Giant" )
@@ -43,7 +41,6 @@ def screen_selection():
     print('************************************')
     character_selection()
 
-#####choix du perso 1
 def character_selection():
     choice = input(">")
     if choice == ("1"):
@@ -57,9 +54,6 @@ def character_selection():
     else:
         print(" player invalid ")
         character_selection()
-
-
-#####choix du perso 1
 
 def character_selection2():
     choice = input(">")
@@ -77,7 +71,7 @@ def character_selection2():
 
 def show():
     print("player1",Player_one.health)
-    print("player2",Player_two.health)
+    
     # print(" Health:", player2.health," + ")
     
 
@@ -85,7 +79,7 @@ menu_screen()
 
 
     
-# pygame.init() essaie sur pygame
+# pygame.init()
 
 
 # screen = pygame.display.set_mode((1080, 720))
